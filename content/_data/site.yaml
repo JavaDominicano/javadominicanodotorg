@@ -1,0 +1,15 @@
+site:
+  title: "JavaDom"
+  tagline: "Dominican Republic Java Community"
+  description: "The premier Java User Community in the Dominican Republic. Building great software together."
+  url: "https://javadom.org"
+  language: "en"
+  author: "JavaDom Community"
+
+values:
+  - title: "Community First"
+    description: "We prioritize collaboration, mentorship, and inclusive growth across all experience levels."
+  - title: "Knowledge Sharing"
+    description: "We share practical Java experience, modern tooling, and engineering practices."
+  - title: "Engineering Excellence"
+    description: "We focus on architecture, performance, and quality that helps teams ship confidently."

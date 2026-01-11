@@ -1,0 +1,49 @@
+talks:
+  - id: resilient-spring-services
+    title: "Designing Resilient Spring Services"
+    speaker: "Maria Rodriguez"
+    speaker_title: "Principal Engineer"
+    description: "Patterns for clean boundaries, scalability, and reliability in Spring-based systems."
+    tags:
+      - "Architecture"
+      - "Spring"
+  - id: graalvm-native-images
+    title: "GraalVM Native Images for Production"
+    speaker: "Carlos Mendez"
+    speaker_title: "Platform Architect"
+    description: "Strategies for native images, reflection configs, and build pipelines for fast Java services."
+    tags:
+      - "Performance"
+      - "GraalVM"
+  - id: modern-java-features
+    title: "Modern Java Features in the Real World"
+    speaker: "Ana Fernandez"
+    speaker_title: "Java Consultant"
+    description: "Records, sealed classes, virtual threads, and how teams use them in production."
+    tags:
+      - "Java 21"
+      - "Language"
+  - id: virtual-threads-java-21
+    title: "Virtual Threads in Java 21"
+    speaker: "Roberto Diaz"
+    speaker_title: "Senior Software Engineer"
+    description: "Migration strategies, performance insights, and real-world patterns with Project Loom."
+    tags:
+      - "Architecture"
+      - "Java 21"
+  - id: quarkus-cloud-native
+    title: "Building Cloud-Native Apps with Quarkus"
+    speaker: "Pedro Martinez"
+    speaker_title: "Cloud Solutions Architect"
+    description: "Build fast, container-first applications with Quarkus Dev Services and Kubernetes deployments."
+    tags:
+      - "Quarkus"
+      - "Cloud"
+  - id: modern-testing-java
+    title: "Modern Testing Strategies for Java"
+    speaker: "Laura Guzman"
+    speaker_title: "QA Lead"
+    description: "Unit, integration, and contract testing patterns that keep Java systems fast to ship."
+    tags:
+      - "Testing"
+      - "Best Practices"

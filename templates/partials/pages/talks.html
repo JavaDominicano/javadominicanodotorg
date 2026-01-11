@@ -1,0 +1,173 @@
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <div class="page-header-content">
+            <span class="section-label">{i18n:t('talks.header.label', page.data('lang'))}</span>
+            <h1 class="page-title">{i18n:t('talks.header.title', page.data('lang'))}</h1>
+            <p class="page-description">
+                {i18n:t('talks.header.description', page.data('lang'))}
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Topic Tags -->
+<section class="section-sm" style="background: var(--color-bg-secondary); border-bottom: 1px solid var(--color-surface-border);">
+    <div class="container">
+        <div class="flex flex-wrap gap-3 justify-center">
+            <span class="tag tag-primary">{i18n:t('talks.tags.all', page.data('lang'))}</span>
+            <span class="tag">{i18n:t('talks.tags.architecture', page.data('lang'))}</span>
+            <span class="tag">{i18n:t('talks.tags.spring', page.data('lang'))}</span>
+            <span class="tag">{i18n:t('talks.tags.quarkus', page.data('lang'))}</span>
+            <span class="tag">{i18n:t('talks.tags.performance', page.data('lang'))}</span>
+            <span class="tag">{i18n:t('talks.tags.testing', page.data('lang'))}</span>
+            <span class="tag">{i18n:t('talks.tags.cloud', page.data('lang'))}</span>
+        </div>
+    </div>
+</section>
+
+<!-- Talks List -->
+<section class="section">
+    <div class="container">
+        <div class="grid" style="gap: var(--space-4);">
+            <div class="card talk-card">
+                <div class="talk-card-thumbnail">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                </div>
+                <div class="talk-card-content">
+                    <div class="flex gap-2 mb-3">
+                        <span class="tag tag-primary">{i18n:t('talks.tags.architecture', page.data('lang'))}</span>
+                        <span class="tag">{i18n:t('talks.tags.spring', page.data('lang'))}</span>
+                    </div>
+                    <h3 class="talk-card-title">{i18n:t('talks.card1.title', page.data('lang'))}</h3>
+                    <p class="talk-card-speaker">{i18n:t('talks.card1.speaker', page.data('lang'))}</p>
+                    <p class="talk-card-description">
+                        {i18n:t('talks.card1.description', page.data('lang'))}
+                    </p>
+                    <div class="talk-card-actions">
+                        <a href="#" class="btn btn-primary">{i18n:t('common.cta.watchVideo', page.data('lang'))}</a>
+                        <a href="#" class="btn btn-ghost">{i18n:t('common.cta.viewSlides', page.data('lang'))}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card talk-card">
+                <div class="talk-card-thumbnail">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                </div>
+                <div class="talk-card-content">
+                    <div class="flex gap-2 mb-3">
+                        <span class="tag tag-primary">{i18n:t('talks.tags.performance', page.data('lang'))}</span>
+                        <span class="tag">{i18n:t('talks.tags.graalvm', page.data('lang'))}</span>
+                    </div>
+                    <h3 class="talk-card-title">{i18n:t('talks.card2.title', page.data('lang'))}</h3>
+                    <p class="talk-card-speaker">{i18n:t('talks.card2.speaker', page.data('lang'))}</p>
+                    <p class="talk-card-description">
+                        {i18n:t('talks.card2.description', page.data('lang'))}
+                    </p>
+                    <div class="talk-card-actions">
+                        <a href="#" class="btn btn-primary">{i18n:t('common.cta.watchVideo', page.data('lang'))}</a>
+                        <a href="#" class="btn btn-ghost">{i18n:t('common.cta.viewSlides', page.data('lang'))}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card talk-card">
+                <div class="talk-card-thumbnail">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                </div>
+                <div class="talk-card-content">
+                    <div class="flex gap-2 mb-3">
+                        <span class="tag tag-primary">{i18n:t('talks.tags.java21', page.data('lang'))}</span>
+                        <span class="tag">{i18n:t('talks.tags.language', page.data('lang'))}</span>
+                    </div>
+                    <h3 class="talk-card-title">{i18n:t('talks.card3.title', page.data('lang'))}</h3>
+                    <p class="talk-card-speaker">{i18n:t('talks.card3.speaker', page.data('lang'))}</p>
+                    <p class="talk-card-description">
+                        {i18n:t('talks.card3.description', page.data('lang'))}
+                    </p>
+                    <div class="talk-card-actions">
+                        <a href="#" class="btn btn-primary">{i18n:t('common.cta.watchVideo', page.data('lang'))}</a>
+                        <a href="#" class="btn btn-ghost">{i18n:t('common.cta.viewSlides', page.data('lang'))}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card talk-card">
+                <div class="talk-card-thumbnail">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                </div>
+                <div class="talk-card-content">
+                    <div class="flex gap-2 mb-3">
+                        <span class="tag tag-primary">{i18n:t('talks.tags.architecture', page.data('lang'))}</span>
+                        <span class="tag">{i18n:t('talks.tags.java21', page.data('lang'))}</span>
+                    </div>
+                    <h3 class="talk-card-title">{i18n:t('talks.card4.title', page.data('lang'))}</h3>
+                    <p class="talk-card-speaker">{i18n:t('talks.card4.speaker', page.data('lang'))}</p>
+                    <p class="talk-card-description">
+                        {i18n:t('talks.card4.description', page.data('lang'))}
+                    </p>
+                    <div class="talk-card-actions">
+                        <a href="#" class="btn btn-primary">{i18n:t('common.cta.watchVideo', page.data('lang'))}</a>
+                        <a href="#" class="btn btn-ghost">{i18n:t('common.cta.viewSlides', page.data('lang'))}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card talk-card">
+                <div class="talk-card-thumbnail">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                </div>
+                <div class="talk-card-content">
+                    <div class="flex gap-2 mb-3">
+                        <span class="tag tag-primary">{i18n:t('talks.tags.quarkus', page.data('lang'))}</span>
+                        <span class="tag">{i18n:t('talks.tags.cloud', page.data('lang'))}</span>
+                    </div>
+                    <h3 class="talk-card-title">{i18n:t('talks.card5.title', page.data('lang'))}</h3>
+                    <p class="talk-card-speaker">{i18n:t('talks.card5.speaker', page.data('lang'))}</p>
+                    <p class="talk-card-description">
+                        {i18n:t('talks.card5.description', page.data('lang'))}
+                    </p>
+                    <div class="talk-card-actions">
+                        <a href="#" class="btn btn-primary">{i18n:t('common.cta.watchVideo', page.data('lang'))}</a>
+                        <a href="#" class="btn btn-ghost">{i18n:t('common.cta.viewSlides', page.data('lang'))}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card talk-card">
+                <div class="talk-card-thumbnail">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                </div>
+                <div class="talk-card-content">
+                    <div class="flex gap-2 mb-3">
+                        <span class="tag tag-primary">{i18n:t('talks.tags.testing', page.data('lang'))}</span>
+                        <span class="tag">{i18n:t('talks.tags.bestPractices', page.data('lang'))}</span>
+                    </div>
+                    <h3 class="talk-card-title">{i18n:t('talks.card6.title', page.data('lang'))}</h3>
+                    <p class="talk-card-speaker">{i18n:t('talks.card6.speaker', page.data('lang'))}</p>
+                    <p class="talk-card-description">
+                        {i18n:t('talks.card6.description', page.data('lang'))}
+                    </p>
+                    <div class="talk-card-actions">
+                        <a href="#" class="btn btn-primary">{i18n:t('common.cta.watchVideo', page.data('lang'))}</a>
+                        <a href="#" class="btn btn-ghost">{i18n:t('common.cta.viewSlides', page.data('lang'))}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

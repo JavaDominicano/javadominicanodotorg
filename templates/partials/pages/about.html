@@ -1,0 +1,232 @@
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <div class="page-header-content">
+            <span class="section-label">{i18n:t('about.header.label', page.data('lang'))}</span>
+            <h1 class="page-title">{i18n:t('about.header.title', page.data('lang'))}</h1>
+            <p class="page-description">
+                {i18n:t('about.header.description', page.data('lang'))}
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Mission & Vision -->
+<section class="section">
+    <div class="container container-narrow">
+        <div class="grid grid-2" style="gap: var(--space-16); align-items: center;">
+            <div>
+                <span class="section-label">{i18n:t('about.mission.label', page.data('lang'))}</span>
+                <h2 class="section-title" style="text-align: left; margin-bottom: var(--space-6);">{i18n:t('about.mission.title', page.data('lang'))}</h2>
+                <p style="margin-bottom: var(--space-4);">
+                    {i18n:t('about.mission.p1', page.data('lang'))}
+                </p>
+                <p style="margin-bottom: var(--space-4);">
+                    {i18n:t('about.mission.p2', page.data('lang'))}
+                </p>
+            </div>
+            <div class="card" style="padding: var(--space-10);">
+                <div class="value-icon" style="margin-bottom: var(--space-6);">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M2 12h20"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                </div>
+                <h3 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">{i18n:t('about.vision.title', page.data('lang'))}</h3>
+                <p class="text-secondary">
+                    {i18n:t('about.vision.description', page.data('lang'))}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Community Leaders -->
+<section class="section" style="background: var(--color-bg-secondary);">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">{i18n:t('about.leadership.label', page.data('lang'))}</span>
+            <h2 class="section-title">{i18n:t('about.leadership.title', page.data('lang'))}</h2>
+            <p class="section-description">
+                {i18n:t('about.leadership.description', page.data('lang'))}
+            </p>
+        </div>
+
+        <div class="grid grid-4">
+            <div class="card speaker-card">
+                <div class="speaker-avatar">
+                    <img src="/assets/images/avatars/jose-martinez.svg" alt="{i18n:t('about.leader.jose.name', page.data('lang'))}">
+                </div>
+                <h3 class="speaker-name">{i18n:t('about.leader.jose.name', page.data('lang'))}</h3>
+                <p class="speaker-title">{i18n:t('about.leader.jose.role', page.data('lang'))}</p>
+                <p class="speaker-bio">{i18n:t('about.leader.jose.bio', page.data('lang'))}</p>
+                <div class="flex flex-wrap gap-2 justify-center mb-4">
+                    <span class="tag">{i18n:t('about.leader.jose.tag1', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.jose.tag2', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.jose.tag3', page.data('lang'))}</span>
+                </div>
+            </div>
+
+            <div class="card speaker-card">
+                <div class="speaker-avatar">
+                    <img src="/assets/images/avatars/sofia-ramirez.svg" alt="{i18n:t('about.leader.sofia.name', page.data('lang'))}">
+                </div>
+                <h3 class="speaker-name">{i18n:t('about.leader.sofia.name', page.data('lang'))}</h3>
+                <p class="speaker-title">{i18n:t('about.leader.sofia.role', page.data('lang'))}</p>
+                <p class="speaker-bio">{i18n:t('about.leader.sofia.bio', page.data('lang'))}</p>
+                <div class="flex flex-wrap gap-2 justify-center mb-4">
+                    <span class="tag">{i18n:t('about.leader.sofia.tag1', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.sofia.tag2', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.sofia.tag3', page.data('lang'))}</span>
+                </div>
+            </div>
+
+            <div class="card speaker-card">
+                <div class="speaker-avatar">
+                    <img src="/assets/images/avatars/andres-garcia.svg" alt="{i18n:t('about.leader.andres.name', page.data('lang'))}">
+                </div>
+                <h3 class="speaker-name">{i18n:t('about.leader.andres.name', page.data('lang'))}</h3>
+                <p class="speaker-title">{i18n:t('about.leader.andres.role', page.data('lang'))}</p>
+                <p class="speaker-bio">{i18n:t('about.leader.andres.bio', page.data('lang'))}</p>
+                <div class="flex flex-wrap gap-2 justify-center mb-4">
+                    <span class="tag">{i18n:t('about.leader.andres.tag1', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.andres.tag2', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.andres.tag3', page.data('lang'))}</span>
+                </div>
+            </div>
+
+            <div class="card speaker-card">
+                <div class="speaker-avatar">
+                    <img src="/assets/images/avatars/lucia-ferrer.svg" alt="{i18n:t('about.leader.lucia.name', page.data('lang'))}">
+                </div>
+                <h3 class="speaker-name">{i18n:t('about.leader.lucia.name', page.data('lang'))}</h3>
+                <p class="speaker-title">{i18n:t('about.leader.lucia.role', page.data('lang'))}</p>
+                <p class="speaker-bio">{i18n:t('about.leader.lucia.bio', page.data('lang'))}</p>
+                <div class="flex flex-wrap gap-2 justify-center mb-4">
+                    <span class="tag">{i18n:t('about.leader.lucia.tag1', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.lucia.tag2', page.data('lang'))}</span>
+                    <span class="tag">{i18n:t('about.leader.lucia.tag3', page.data('lang'))}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Who This Is For -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">{i18n:t('about.audience.label', page.data('lang'))}</span>
+            <h2 class="section-title">{i18n:t('about.audience.title', page.data('lang'))}</h2>
+            <p class="section-description">
+                {i18n:t('about.audience.description', page.data('lang'))}
+            </p>
+        </div>
+
+        <div class="grid grid-3">
+            <div class="card" style="text-align: center; padding: var(--space-8);">
+                <div class="value-icon" style="margin: 0 auto var(--space-6);">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                    </svg>
+                </div>
+                <h3 style="margin-bottom: var(--space-3);">{i18n:t('about.audience.card1.title', page.data('lang'))}</h3>
+                <p class="text-secondary text-sm">
+                    {i18n:t('about.audience.card1.desc', page.data('lang'))}
+                </p>
+            </div>
+
+            <div class="card" style="text-align: center; padding: var(--space-8);">
+                <div class="value-icon" style="margin: 0 auto var(--space-6);">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"/>
+                        <polyline points="8 6 2 12 8 18"/>
+                    </svg>
+                </div>
+                <h3 style="margin-bottom: var(--space-3);">{i18n:t('about.audience.card2.title', page.data('lang'))}</h3>
+                <p class="text-secondary text-sm">
+                    {i18n:t('about.audience.card2.desc', page.data('lang'))}
+                </p>
+            </div>
+
+            <div class="card" style="text-align: center; padding: var(--space-8);">
+                <div class="value-icon" style="margin: 0 auto var(--space-6);">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <h3 style="margin-bottom: var(--space-3);">{i18n:t('about.audience.card3.title', page.data('lang'))}</h3>
+                <p class="text-secondary text-sm">
+                    {i18n:t('about.audience.card3.desc', page.data('lang'))}
+                </p>
+            </div>
+
+            <div class="card" style="text-align: center; padding: var(--space-8);">
+                <div class="value-icon" style="margin: 0 auto var(--space-6);">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <h3 style="margin-bottom: var(--space-3);">{i18n:t('about.audience.card4.title', page.data('lang'))}</h3>
+                <p class="text-secondary text-sm">
+                    {i18n:t('about.audience.card4.desc', page.data('lang'))}
+                </p>
+            </div>
+
+            <div class="card" style="text-align: center; padding: var(--space-8);">
+                <div class="value-icon" style="margin: 0 auto var(--space-6);">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                    </svg>
+                </div>
+                <h3 style="margin-bottom: var(--space-3);">{i18n:t('about.audience.card5.title', page.data('lang'))}</h3>
+                <p class="text-secondary text-sm">
+                    {i18n:t('about.audience.card5.desc', page.data('lang'))}
+                </p>
+            </div>
+
+            <div class="card" style="text-align: center; padding: var(--space-8);">
+                <div class="value-icon" style="margin: 0 auto var(--space-6);">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                </div>
+                <h3 style="margin-bottom: var(--space-3);">{i18n:t('about.audience.card6.title', page.data('lang'))}</h3>
+                <p class="text-secondary text-sm">
+                    {i18n:t('about.audience.card6.desc', page.data('lang'))}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Java Matters -->
+<section class="section">
+    <div class="container container-narrow">
+        <div class="section-header">
+            <span class="section-label">{i18n:t('about.focus.label', page.data('lang'))}</span>
+            <h2 class="section-title">{i18n:t('about.focus.title', page.data('lang'))}</h2>
+            <p class="section-description">
+                {i18n:t('about.focus.description', page.data('lang'))}
+            </p>
+        </div>
+
+        <ul class="list-check">
+            <li>{i18n:t('about.focus.li1', page.data('lang'))}</li>
+            <li>{i18n:t('about.focus.li2', page.data('lang'))}</li>
+            <li>{i18n:t('about.focus.li3', page.data('lang'))}</li>
+        </ul>
+    </div>
+</section>

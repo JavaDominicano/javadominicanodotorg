@@ -1,0 +1,63 @@
+# JavaDom Site Configuration for Quarkus ROQ
+site:
+  title: "JavaDom"
+  tagline: "Dominican Republic Java Community"
+  description: "The premier Java User Community in the Dominican Republic. Building secure, scalable applications together."
+  url: "https://javadom.org"
+  language: "en"
+  author: "JavaDom Community"
+
+# Build configuration
+build:
+  output_dir: "_site"
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: "/events/:slug/"
+  talks:
+    output: true
+    permalink: "/talks/:slug/"
+  speakers:
+    output: true
+    permalink: "/speakers/:slug/"
+
+# Navigation
+navigation:
+  main:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about"
+    - title: "Events"
+      url: "/events"
+    - title: "Talks"
+      url: "/talks"
+    - title: "Speakers"
+      url: "/speakers"
+    - title: "Community"
+      url: "/community"
+    - title: "Sponsors"
+      url: "/sponsors"
+  footer:
+    - title: "Code of Conduct"
+      url: "/code-of-conduct"
+    - title: "FAQ"
+      url: "/faq"
+
+# Social links
+social:
+  github: "https://github.com/javadom"
+  linkedin: "https://linkedin.com/company/javadom"
+  youtube: "https://youtube.com/@javadom"
+  discord: "https://discord.gg/javadom"
+  twitter: "https://twitter.com/javadomrd"
+
+# SEO defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "main"
+      author: "JavaDom"

@@ -1,0 +1,22 @@
+events:
+  - id: modern-java-practice
+    title: "Modern Java in Practice"
+    date: "2024-03-14"
+    time: "6:30 PM AST"
+    location: "Santo Domingo + Online"
+    speaker: "Ana Fernandez"
+    description: "Hands-on session on Java 21, clean architecture, and building maintainable services."
+  - id: quarkus-cloud-native
+    title: "Quarkus for Cloud-Native Teams"
+    date: "2024-04-11"
+    time: "7:00 PM AST"
+    location: "Online"
+    speaker: "Carlos Mendez"
+    description: "Learn to build container-ready Java applications with Quarkus and Dev Services."
+  - id: java-platform-scale
+    title: "Designing Java Platforms at Scale"
+    date: "2024-05-09"
+    time: "6:30 PM AST"
+    location: "Santiago, DR"
+    speaker: "Maria Rodriguez"
+    description: "Architecture patterns, runtime tuning, and delivery practices for large Java systems."
